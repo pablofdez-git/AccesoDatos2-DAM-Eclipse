@@ -33,7 +33,53 @@ public class _Principal {
 		coches.add(new Vehiculo("6677-HIJ", true));
 		coches.add(new Vehiculo("4409-KLL",false));
 		
-		//for(int)
+		List<Vehiculo> fuera = new ArrayList<>();
+		boolean bandera = false;
+		
+		for(int i = 0; i< coches.size(); i++) {
+			Vehiculo coche = coches.get(i);
+			boolean aparcado =false;
+			
+			for(int j = 0; j < parking.size() && !aparcado; j++) {
+				Plaza plaza = parking.get(j);
+				
+				if(!plaza.isOcupada()) {
+					if(coche.isEsElectrico() || !plaza.isElectricos()) {
+						plaza.setOcupada(true);
+						plaza.setVehiculo(coche);
+						aparcado  =true;
+					}
+				}
+			}
+			if(!aparcado) {
+				fuera.add(coche);
+			}
+		}
+		
+		// --- IMPRIMIR LOS RESULTADOS ---
+				System.out.println("=== ESTADO DEL APARCAMIENTO ===");
+				for (int i = 0; i < parking.size(); i++) {
+					Plaza plaza = parking.get(i);
+					String tipoPlaza = plaza.isElectricos() ? "[ELÉCTRICA]" : "[NORMAL]   ";
+					
+					if (plaza.isOcupada()) {
+						System.out.println("Plaza " + plaza.getNum() + " " + tipoPlaza + " -> Ocupada por: " + plaza.getVehiculo().getMatricula());
+					} else {
+						System.out.println("Plaza " + plaza.getNum() + " " + tipoPlaza + " -> LIBRE");
+					}
+				}
+				
+				System.out.println("\n=== COCHES QUE SE QUEDARON FUERA ===");
+				if (fuera.isEmpty()) {
+				} else {
+					System.out.println("Ninguno, todos han conseguido aparcar (de milagro).");
+					for (int i = 0; i < fuera.size(); i++) {
+						Vehiculo v = fuera.get(i);
+						String tipoCoche = v.isEsElectrico() ? "(Eléctrico)" : "(No eléctrico)";
+						System.out.println("- Matrícula: " + v.getMatricula() + " " + tipoCoche);
+					}
+				}
+		
 
 	}
 
