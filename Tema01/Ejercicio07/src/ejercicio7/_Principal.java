@@ -56,30 +56,29 @@ public class _Principal {
 			}
 		}
 		
-		// --- IMPRIMIR LOS RESULTADOS ---
-				System.out.println("=== ESTADO DEL APARCAMIENTO ===");
-				for (int i = 0; i < parking.size(); i++) {
-					Plaza plaza = parking.get(i);
-					String tipoPlaza = plaza.isElectricos() ? "[ELÉCTRICA]" : "[NORMAL]   ";
-					
-					if (plaza.isOcupada()) {
-						System.out.println("Plaza " + plaza.getNum() + " " + tipoPlaza + " -> Ocupada por: " + plaza.getVehiculo().getMatricula());
-					} else {
-						System.out.println("Plaza " + plaza.getNum() + " " + tipoPlaza + " -> LIBRE");
-					}
-				}
-				
-				System.out.println("\n=== COCHES QUE SE QUEDARON FUERA ===");
-				if (fuera.isEmpty()) {
-				} else {
-					System.out.println("Ninguno, todos han conseguido aparcar (de milagro).");
-					for (int i = 0; i < fuera.size(); i++) {
-						Vehiculo v = fuera.get(i);
-						String tipoCoche = v.isEsElectrico() ? "(Eléctrico)" : "(No eléctrico)";
-						System.out.println("- Matrícula: " + v.getMatricula() + " " + tipoCoche);
-					}
-				}
+		System.out.println("=== ESTADO DEL APARCAMIENTO ===");
+		for (int i = 0; i < parking.size(); i++) {
+			Plaza plaza = parking.get(i);
+			String tipoPlaza = plaza.isElectricos() ? "[ELÉCTRICA]" : "[NORMAL]   ";
+			
+			if (plaza.isOcupada()) {
+				System.out.println("Plaza " + plaza.getNum() + " " + tipoPlaza + " -> Ocupada por: " + plaza.getVehiculo().getMatricula());
+			} else {
+				System.out.println("Plaza " + plaza.getNum() + " " + tipoPlaza + " -> LIBRE");
+			}
+		}
 		
+		System.out.println("\n=== COCHES QUE SE QUEDARON FUERA ===");
+		if (fuera.isEmpty()) {
+		} else {
+			System.out.println("Ninguno, todos han conseguido aparcar (de milagro).");
+			for (int i = 0; i < fuera.size(); i++) {
+				Vehiculo v = fuera.get(i);
+				String tipoCoche = v.isEsElectrico() ? "(Eléctrico)" : "(No eléctrico)";
+				System.out.println("- Matrícula: " + v.getMatricula() + " " + tipoCoche);
+			}
+		}
+
 
 	}
 
