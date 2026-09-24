@@ -9,16 +9,16 @@ public class Ejercicio2 {
 		Scanner sc = new Scanner(System.in);
 		
 		try {
-			int notas [] = new int[5];
+			double notas [] = new double[5];
 			Random random = new Random();
 			
 			for(int i = 0; i<notas.length;i++) {
-				notas[i] = random.nextInt(10)+1;
+				notas[i] = random.nextDouble(10)+1;
 			}
 			
 			System.out.println("Introduce una posicion para saber la nota del alumno 0-4");
 			int pos = sc.nextInt();
-			int nota = 0;
+			double nota = 0;
 			
 			for(int i = 0; i<notas.length;i++) {
 				nota = notas[i];

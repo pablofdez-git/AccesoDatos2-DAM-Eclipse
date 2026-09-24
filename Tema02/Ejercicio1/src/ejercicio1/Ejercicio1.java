@@ -46,7 +46,7 @@ public class Ejercicio1 {
 				System.out.println("No se puede dividir entre 0");
 			}
 			
-		}while(operador == -1);
+		}while(operador != -1);
 	}
 
 }
