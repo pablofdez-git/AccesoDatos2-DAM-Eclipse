@@ -16,7 +16,7 @@ public class CuentaBancaria {
 		this.saldoIncial = saldoIncial;
 	}
 	
-	public double ingresar(double cantidad) {
+	public double ingresar(double cantidad) /* throws nombreClaseException */{
 		double ingreso = this.saldoIncial + cantidad;
 		return ingreso;
 	}
