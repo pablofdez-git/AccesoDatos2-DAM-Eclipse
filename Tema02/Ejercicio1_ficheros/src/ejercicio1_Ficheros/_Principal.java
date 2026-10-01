@@ -14,7 +14,7 @@ public class _Principal {
 		
 		System.out.println("-----------------------------------------------");
 		
-		ficha("C:\\Users\\Alumno\\OneDrive\\2ºDAM\\Optativa\\Python\\Cadena");
+		ficha("C:\\Users\\Alumno\\OneDrive\\2ºDAM\\Optativa\\Python\\Cdenas");
 	}
 	
 	public static void ficha(String ruta) {
@@ -49,8 +49,7 @@ public class _Principal {
 			}
 			
 		}else {
-			System.out.println("La ruta no exixte");
-			return;
+			System.err.println("La ruta no exixte");
 		}
 		
 	}

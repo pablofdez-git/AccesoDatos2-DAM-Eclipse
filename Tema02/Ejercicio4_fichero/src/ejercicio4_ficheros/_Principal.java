@@ -5,7 +5,7 @@ import java.io.File;
 public class _Principal {
 
 	public static void main(String[] args) {
-		File ruta = new File("C:\\\\Users\\\\pablo\\\\OneDrive\\\\2ºDAM\\\\Optativa\\\\Python\\\\Mix");
+		File ruta = new File("C:\\Users\\Alumno\\OneDrive\\2ºDAM\\Optativa\\Python\\Mix");
 		
 		long totalBytes = calcularTamanioTotal(ruta);
 		
@@ -27,7 +27,6 @@ public class _Principal {
 		if(carpeta.isFile()) {
 			result = carpeta.length();
 		}
-		
 		File[] elementos = carpeta.listFiles();
 		
 		if(elementos != null) {
