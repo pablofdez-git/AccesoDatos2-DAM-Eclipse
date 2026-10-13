@@ -1,9 +1,10 @@
-package ejercicio11;
+package	 ejercicio11;
 
 public class _Principal {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
+		String archivo = "C:\\Users\\Alumno\\OneDrive\\2ºDAM\\AccesoDatos\\varios\\deportistas.txt"; 
 
 	}
 
