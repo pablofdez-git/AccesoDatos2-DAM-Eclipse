@@ -1,5 +1,8 @@
 package ejercicio2_25;
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.RandomAccessFile;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -34,7 +37,15 @@ public class _Principal {
 		cuentas.add(new Cuenta(1007, "Elena Díaz",       9650.25, 'A'));
 		cuentas.add(new Cuenta(1008, "Sergio Moreno",    1999.99, 'C'));
 		
-		try(RandomAccessFile raf = new RandomAccessFile(ruta, "rw"));
+		try(RandomAccessFile raf = new RandomAccessFile(ruta, "rw")){
+			
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 		
 
