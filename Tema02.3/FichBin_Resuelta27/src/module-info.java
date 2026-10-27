@@ -1,0 +1,8 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module FichBin_EjemploObjectOutputStream {
+}
