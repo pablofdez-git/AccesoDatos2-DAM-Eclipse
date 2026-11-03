@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "nombre": "Taladro percutor",
+    "precio": 89.9,
+    "stock": 8,
+    "categoria": "HERRAMIENTA",
+    "fechaAlta": "2026-11-02",
+    "proveedor": {
+      "nombre": "Ferrosur",
+      "email": "pedidos@ferrosur.example"
+    },
+    "etiquetas": [
+      "electrico",
+      "obra"
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Disco de corte 115 mm",
+    "precio": 1.95,
+    "stock": 200,
+    "categoria": "CONSUMIBLE",
+    "fechaAlta": "2026-11-02",
+    "proveedor": {
+      "nombre": "Abrasivos Norte",
+      "email": "ventas@abrasivosnorte.example"
+    },
+    "etiquetas": [
+      "amoladora"
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Polímetro digital",
+    "precio": 24.5,
+    "stock": 8,
+    "categoria": "ELECTRONICA",
+    "fechaAlta": "2026-11-02",
+    "etiquetas": []
+  }
+]
