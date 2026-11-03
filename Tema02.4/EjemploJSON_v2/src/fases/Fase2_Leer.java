@@ -17,7 +17,7 @@ public class Fase2_Leer {
 		Gson gson = new Gson();
         Path ruta = Path.of("productoGuardado.json");
 
-        try (Reader r = Files.newBufferedReader(ruta, StandardCharsets.UTF_8)) {
+        try (Reader r = Files.newBufferedReader(ruta, StandardCharsets.UTF_8)) {		//codificacion utf_8 para los caracteres especiales: ñ
             Producto p = gson.fromJson(r, Producto.class);
             System.out.println("Leído: " + p);
         } catch (IOException e) {

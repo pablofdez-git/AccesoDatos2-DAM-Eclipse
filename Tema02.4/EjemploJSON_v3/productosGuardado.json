@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "nombre": "Taladro percutor",
+    "precio": 89.9,
+    "stock": 12
+  },
+  {
+    "id": 2,
+    "nombre": "Martillo",
+    "precio": 12.5,
+    "stock": 40
+  },
+  {
+    "id": 3,
+    "nombre": "Cinta métrica 5 m",
+    "precio": 6.75,
+    "stock": 25
+  }
+]

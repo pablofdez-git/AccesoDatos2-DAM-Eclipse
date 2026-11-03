@@ -21,7 +21,9 @@ public class Fase5 {
 		Producto p = new Producto(1, "Taladro percutor", 89.90, 12, Categoria.HERRAMIENTA, LocalDate.of(2026, 10, 13),
                 new Proveedor("Ferrosur", "pedidos@ferrosur.example"), List.of("electrico", "obra"));
 
-		Gson gson = new GsonBuilder().setPrettyPrinting().registerTypeAdapter(LocalDate.class, new LocalDateAdapter().nullSafe()).create();
+		Gson gson = new GsonBuilder()
+				.setPrettyPrinting().registerTypeAdapter(LocalDate.class, new LocalDateAdapter().nullSafe())
+				.create();
 
 		String json = gson.toJson(p);
         System.out.println(json);

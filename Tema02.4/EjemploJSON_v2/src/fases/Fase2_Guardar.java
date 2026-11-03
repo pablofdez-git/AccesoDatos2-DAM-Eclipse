@@ -18,7 +18,7 @@ public class Fase2_Guardar {
 		Producto p = new Producto(1, "Taladro percutor", 89.90, 12);
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
-        Path ruta = Path.of("productoGuardado.json");
+        Path ruta = Path.of("productoGuardado.json");				//ruta donde se guarda el archivo
 
         try (Writer w = Files.newBufferedWriter(ruta, StandardCharsets.UTF_8)) {
             gson.toJson(p, w);

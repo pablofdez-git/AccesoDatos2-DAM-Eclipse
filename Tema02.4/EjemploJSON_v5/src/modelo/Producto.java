@@ -8,6 +8,7 @@ public class Producto {
 	
 	private int id;
     private String nombre;
+    //@SerializedName("precio_unitario")    //"precio_unitario": 89.9, en vez de "precio":89.9,
     private double precio;
     private int stock;
     private Categoria categoria;
