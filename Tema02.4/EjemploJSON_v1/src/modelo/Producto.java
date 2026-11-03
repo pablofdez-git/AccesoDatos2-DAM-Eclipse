@@ -5,7 +5,7 @@ public class Producto {
 	private int id;
     private String nombre;
     private double precio;
-    private int stock;
+    private /*transient*/ int stock;	//transient: este atributo no se guarda en json pero java si lo conoce
 
     public Producto(int id, String nombre, double precio, int stock) {
         this.id = id;
