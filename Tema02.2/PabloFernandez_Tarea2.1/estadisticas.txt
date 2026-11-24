@@ -1,0 +1,6 @@
+Asignatura;Notas;Media;Aprobadas;Suspensas;Maxima;Minima;PorcentajeAprobados
+Bases de Datos;7;6,23;6;1;7,34;4,00
+Inglés;6;5,08;3;3;8,00;2,00
+Lengua;2;7,50;2;0;8,00;7,00
+Programación;10;6,00;7;3;9,00;3,00
+Sistemas;9;4,22;3;6;7,00;0,00

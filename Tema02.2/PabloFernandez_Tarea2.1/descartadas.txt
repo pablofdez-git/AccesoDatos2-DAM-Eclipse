@@ -1,0 +1,12 @@
+Linea 5 | COLUMNAS_INCORRECTAS | 2001;Lucía;Muñoz Peña;Inglés;1
+Linea 7 | FILA_DUPLICADA | 2001;Lucía;Muñoz Peña;Lengua;1;5
+Linea 13 | LINEA_VACIA | 
+Linea 16 | NOTA_VACIA | 2002;Iker;   ;Programación;2;
+Linea 20 | FILA_DUPLICADA | 2002;Iker;Núñez Ortega;Programación;1;9
+Linea 27 | NOTA_VACIA | 2003;Nuria;Álvarez Rueda;Lengua;2;
+Linea 29 | NOTA_NO_NUMERICA | 2004;Álvaro;Pérez Lobo;Inglés;2;NP
+Linea 32 | COLUMNAS_INCORRECTAS | 2004;Álvaro;;Inglés
+Linea 33 | ID_NO_VALIDO | x;Álvaro;Pérez Lobo;;1;5
+Linea 39 | TRIMESTRE_NO_VALIDO | 2005;Marta;Gutiérrez Ibáñez;Sistemas;4;6
+Linea 40 | ID_NO_VALIDO | abc;Marta;Gutiérrez Ibáñez;Sistemas;1;6
+Linea 44 | TRIMESTRE_NO_VALIDO | 2006;;Domínguez Vega;Sistemas;7;5

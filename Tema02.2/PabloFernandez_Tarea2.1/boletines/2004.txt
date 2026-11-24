@@ -1,0 +1,7 @@
+BOLETIN DE NOTAS
+Alumno: Pérez Lobo, Álvaro (ID 2004)
+------------------------------------------
+Asignatura;T1;T2;T3;Media
+Inglés;6,00;7,00;8,00;7,00
+------------------------------------------
+Media global: 7,00

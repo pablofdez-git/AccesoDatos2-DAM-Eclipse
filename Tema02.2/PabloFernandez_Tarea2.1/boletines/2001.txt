@@ -1,0 +1,10 @@
+BOLETIN DE NOTAS
+Alumno: Muñoz Peña, Lucía (ID 2001)
+------------------------------------------
+Asignatura;T1;T2;T3;Media
+Bases de Datos;6,00;6,50;7,00;6,50
+Lengua;7,00;8,00;-;7,50
+Programación;8,00;7,50;9,00;8,17
+Sistemas;7,00;-;-;7,00
+------------------------------------------
+Media global: 7,29

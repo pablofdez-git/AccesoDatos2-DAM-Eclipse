@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<inventario>
+  <producto id="1">
+    <nombre>Taladro percutor</nombre>
+    <precio>89.9</precio>
+    <stock>12</stock>
+    <categoria>HERRAMIENTA</categoria>
+    <fechaAlta>2026-10-13</fechaAlta>
+    <proveedor>
+      <nombre>Ferrosur</nombre>
+      <email>pedidos@ferrosur.example</email>
+    </proveedor>
+    <etiquetas>
+      <etiqueta>electrico</etiqueta>
+      <etiqueta>obra</etiqueta>
+    </etiquetas>
+  </producto>
+  <producto id="2">
+    <nombre>Polímetro digital</nombre>
+    <precio>24.5</precio>
+    <stock>8</stock>
+    <categoria>ELECTRONICA</categoria>
+    <fechaAlta>2026-10-13</fechaAlta>
+    <etiquetas/>
+  </producto>
+</inventario>

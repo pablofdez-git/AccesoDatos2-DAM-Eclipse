@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo proveedor="Ferrosur">
+  <articulo codigo="101" categoria="HERRAMIENTA">
+    <descripcion>Llave inglesa 250 mm</descripcion>
+    <pvp>14.90</pvp>
+  </articulo>
+  <articulo codigo="102" categoria="HERRAMIENTA">
+    <descripcion>Destornillador Phillips</descripcion>
+    <pvp>3.20</pvp>
+  </articulo>
+  <articulo codigo="201" categoria="ELECTRICO">
+    <descripcion>Cinta aislante 10 m</descripcion>
+    <pvp>1.50</pvp>
+  </articulo>
+  <articulo codigo="202" categoria="ELECTRICO">
+    <descripcion>Regleta 4 tomas</descripcion>
+    <pvp>12.00</pvp>
+  </articulo>
+</catalogo>

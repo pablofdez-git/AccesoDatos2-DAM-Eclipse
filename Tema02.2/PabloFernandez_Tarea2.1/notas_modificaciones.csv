@@ -1,0 +1,47 @@
+id;nombre;apellidos;asignatura;trimestre;nota
+2001;Lucía;Muñoz Peña;Bases de Datos;1;6
+2001;Lucía;Muñoz Peña;Bases de Datos;2;6,5
+2001;Lucía;Muñoz Peña;Bases de Datos;3;7
+2001;Lucía;Muñoz Peña;Inglés;1
+2001;Lucía;Muñoz Peña;Lengua;1;7
+2001;Lucía;Muñoz Peña;Lengua;1;5
+2001;Lucía;Muñoz Peña;Lengua;2;8
+2001;Lucía;Muñoz Peña;Programación;1;8
+2001;Lucía;Muñoz Peña;Programación;2;7,5
+2001;Lucía;Muñoz Peña;Programación;3;9
+2001;Lucía;Muñoz Peña;Sistemas;1;7
+
+2002;Iker;Núñez Ortega;Bases de Datos;1;4
+2002;Iker;Núñez Ortega;Bases de Datos;2;6
+2002;Iker;   ;Programación;2;
+2002;Iker;Núñez Ortega;Programación;1;5
+2002;Iker;Núñez Ortega;Programación;2;5
+2002;Iker;Núñez Ortega;Programación;3;5
+2002;Iker;Núñez Ortega;Programación;1;9
+2003;Nuria;Álvarez Rueda;Programación;1;3
+2003;Nuria;Álvarez Rueda;Programación;2;4,5
+2003;Nuria;Álvarez Rueda;Programación;3;4
+2003;Nuria;Álvarez Rueda;Sistemas;1;5
+2003;Nuria;Álvarez Rueda;Sistemas;2;4,5
+2003;Nuria;Álvarez Rueda;Sistemas;3;3
+2003;Nuria;Álvarez Rueda;Lengua;2;
+2004;Álvaro;Pérez Lobo;Inglés;1;6
+2004;Álvaro;Pérez Lobo;Inglés;2;NP
+2004;Álvaro;Pérez Lobo;Inglés;2;7
+2004;Álvaro;Pérez Lobo;Inglés;3;8
+2004;Álvaro;;Inglés
+x;Álvaro;Pérez Lobo;;1;5
+2005;Marta;Gutiérrez Ibáñez;Bases de Datos;1;7,34
+2005;Marta;Gutiérrez Ibáñez;Bases de Datos;2;6,78
+2005;Marta;Gutiérrez Ibáñez;Programación;1;9
+2005;Marta;Gutiérrez Ibáñez;Sistemas;1;0
+2005;Marta;Gutiérrez Ibáñez;Sistemas;2;6
+2005;Marta;Gutiérrez Ibáñez;Sistemas;4;6
+abc;Marta;Gutiérrez Ibáñez;Sistemas;1;6
+2006;Hugo;Domínguez Vega;Inglés;1;2
+2006;Hugo;Domínguez Vega;Inglés;2;3
+2006;Hugo;Domínguez Vega;Inglés;3;4,5
+2006;;Domínguez Vega;Sistemas;7;5
+2006;Hugo;Domínguez Vega;Sistemas;1;4
+2006;Hugo;Domínguez Vega;Sistemas;2;4
+2006;Hugo;Domínguez Vega;Sistemas;3;4,5

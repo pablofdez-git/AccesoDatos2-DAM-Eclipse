@@ -1,0 +1,8 @@
+BOLETIN DE NOTAS
+Alumno: Núñez Ortega, Iker (ID 2002)
+------------------------------------------
+Asignatura;T1;T2;T3;Media
+Bases de Datos;4,00;6,00;-;5,00
+Programación;5,00;5,00;5,00;5,00
+------------------------------------------
+Media global: 5,00

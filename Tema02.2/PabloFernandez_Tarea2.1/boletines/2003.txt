@@ -1,0 +1,8 @@
+BOLETIN DE NOTAS
+Alumno: Álvarez Rueda, Nuria (ID 2003)
+------------------------------------------
+Asignatura;T1;T2;T3;Media
+Programación;3,00;4,50;4,00;3,83
+Sistemas;5,00;4,50;3,00;4,17
+------------------------------------------
+Media global: 4,00

@@ -1,0 +1,9 @@
+BOLETIN DE NOTAS
+Alumno: Gutiérrez Ibáñez, Marta (ID 2005)
+------------------------------------------
+Asignatura;T1;T2;T3;Media
+Bases de Datos;7,34;6,78;-;7,06
+Programación;9,00;-;-;9,00
+Sistemas;0,00;6,00;-;3,00
+------------------------------------------
+Media global: 6,35

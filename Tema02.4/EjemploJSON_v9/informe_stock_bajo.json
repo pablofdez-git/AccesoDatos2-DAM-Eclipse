@@ -1,0 +1,14 @@
+{
+  "generado": "2026-11-08",
+  "minimo": 20,
+  "productos": [
+    {
+      "nombre": "Taladro percutor",
+      "stock": 8
+    },
+    {
+      "nombre": "Polímetro digital",
+      "stock": 8
+    }
+  ]
+}

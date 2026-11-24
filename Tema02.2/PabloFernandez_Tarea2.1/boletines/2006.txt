@@ -1,0 +1,8 @@
+BOLETIN DE NOTAS
+Alumno: Domínguez Vega, Hugo (ID 2006)
+------------------------------------------
+Asignatura;T1;T2;T3;Media
+Inglés;2,00;3,00;4,50;3,17
+Sistemas;4,00;4,00;4,50;4,17
+------------------------------------------
+Media global: 3,67
